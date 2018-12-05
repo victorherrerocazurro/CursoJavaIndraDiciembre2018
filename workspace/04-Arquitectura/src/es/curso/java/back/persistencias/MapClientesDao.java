@@ -11,8 +11,22 @@ public class MapClientesDao implements ClientesDao {
 	private Map<Long, Cliente> tablaClientes 
 			= ClientesHashMap.getInstance();
 
+	/**
+	 * Este metodo no genera el ID, el Id debera 
+	 * venir establecido previamente
+	 */
 	@Override
 	public void insertar(Cliente cliente) {
+		//Comentario de linea
+		/*
+		  
+		  zxfgadgasdga
+		  sgsdfg
+		  adsfg
+		  adfgadfg
+		  
+		  
+		 */
 		tablaClientes.put(cliente.getId(), cliente);
 	}
 

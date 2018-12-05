@@ -1,6 +1,5 @@
 INDEX VERSION 1.131+C:\CursoJava\workspace\.metadata\.plugins\org.eclipse.jdt.core
 713818288.index
-3931307968.index
 4268093026.index
 1066039421.index
 1090022228.index
@@ -10,7 +9,6 @@ INDEX VERSION 1.131+C:\CursoJava\workspace\.metadata\.plugins\org.eclipse.jdt.co
 1821544937.index
 1514337216.index
 3939963113.index
-2134214714.index
 3013467464.index
 441830497.index
 980029179.index

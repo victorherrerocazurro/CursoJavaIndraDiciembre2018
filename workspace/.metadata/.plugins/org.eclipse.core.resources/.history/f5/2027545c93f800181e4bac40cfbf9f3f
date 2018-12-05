@@ -1,0 +1,14 @@
+package es.curso.java.back.servicios;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ServicioImplTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

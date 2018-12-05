@@ -27,8 +27,8 @@ public class ClientesHashMap extends HashMap<Long, Cliente> {
 		
 		System.out.println("Despues de invocar al padre");
 		
-		System.out.println("Cliente: " + resultado);
-		System.out.println("Cliente: " + resultado.toString());
+		System.out.println("Cliente: " + value);
+//		System.out.println("Cliente: " + resultado.toString());
 		
 		return resultado;
 	}

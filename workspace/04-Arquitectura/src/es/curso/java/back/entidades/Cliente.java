@@ -4,13 +4,14 @@ import java.util.Date;
 
 public class Cliente {
 
+	//Atributos
 	private Long id;
 	private String nombre;
 	private Date fechaAlta;
 
+	//Constructores
 	public Cliente() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public Cliente(Long id, String nombre, Date fechaAlta) {
@@ -25,44 +26,27 @@ public class Cliente {
 		return "Cliente [id=" + id + ", nombre=" + nombre + ", fechaAlta=" + fechaAlta + "]";
 	}
 
-	/**
-	 * @return El numero de años redondeado
-	 */
-	public int cuantoTiempoLlevasConNosotros() {
-		//TODO Pendiente e imlmenetar cuando sepamos 
-		//manejar el API de fechas
-		return 0;
-	}
-
-	/**
-	 * Funcionalidad que respone al comoTeLlamas
-	 * @return
-	 */
-	public String getNombre() {
-		return nombre;
-	}
-	
-	public String comoTeLLamas() {
-		//return nombre;
-		return getNombre();
-	}
-
-	/**
-	 * Metodo que implementa cualEsTuIdentificador
-	 * @return
-	 */
 	public Long getId() {
 		return id;
 	}
-	
-	public Pedido[] cualesSonTusPedidos(){
-		return null;
+
+	public void setId(Long id) {
+		this.id = id;
 	}
-	
-	public String[] cualesSonTusPedidos(Date desde, Date hasta){
-		return null;
+
+	public String getNombre() {
+		return nombre;
 	}
-	
-	
-	
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public Date getFechaAlta() {
+		return fechaAlta;
+	}
+
+	public void setFechaAlta(Date fechaAlta) {
+		this.fechaAlta = fechaAlta;
+	}
 }

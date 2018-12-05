@@ -1,0 +1,29 @@
+package es.curso.java.back.negocios;
+
+import es.curso.java.back.entidades.Cliente;
+import es.curso.java.front.modelos.ClienteDto;
+
+public class Negocio {
+
+	/**
+	 * Este metodo no genera el ID, el Id debera 
+	 * venir establecido previamente
+	 * @param cliente
+	 * @return
+	 */
+	public Cliente transformarUnDtoEnCliente(ClienteDto cliente) {
+
+		return new Cliente(null, cliente.getNombre(), cliente.getFechaAlta());
+	}
+
+	public ClienteDto transformarUnClienteEnDto(Cliente cliente) {
+
+		return new ClienteDto(cliente.getNombre(), cliente.getFechaAlta());
+	}
+
+	public Long generarSiguienteId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

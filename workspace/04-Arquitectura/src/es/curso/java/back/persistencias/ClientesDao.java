@@ -6,6 +6,10 @@ import es.curso.java.back.entidades.Cliente;
 
 public interface ClientesDao {
 
+	/**
+	 * Este metodo no genera el ID, el Id debera 
+	 * venir establecido previamente
+	 */
 	void insertar(Cliente cliente);
 	void actualizar(Cliente cliente);
 	void borrar(Long id);

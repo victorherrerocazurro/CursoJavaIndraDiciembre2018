@@ -1,0 +1,24 @@
+package es.curso.java.back.servicios;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import es.curso.java.back.negocios.Negocio;
+import es.curso.java.back.persistencias.ClientesDao;
+import es.curso.java.back.persistencias.MapClientesDao;
+
+public class ServicioImplTest {
+
+	@Test
+	public void test() {
+		
+		ClientesDao persistencia = new MapClientesDao();
+		Negocio negocio = new Negocio();
+		new ServicioImpl(negocio, persistencia);
+		
+		
+		fail("Not yet implemented");
+	}
+
+}
