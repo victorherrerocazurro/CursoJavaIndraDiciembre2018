@@ -1,0 +1,20 @@
+package es.curso.java.front.controladores;
+
+import es.curso.java.back.servicios.Servicio;
+
+public class Controlador {
+
+	private Servicio servicio;
+	
+	public Controlador(Servicio servicio) {
+		super();
+		this.servicio = servicio;
+	}
+
+	public void setServicio(Servicio servicio) {
+		this.servicio = servicio;
+	}
+	
+	
+	
+}

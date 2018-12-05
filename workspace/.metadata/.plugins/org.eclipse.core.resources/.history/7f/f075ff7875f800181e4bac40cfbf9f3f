@@ -1,0 +1,5 @@
+package es.curso.java.back.persistencias;
+
+public interface ClientesDao {
+
+}

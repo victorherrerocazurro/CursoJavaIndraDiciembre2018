@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package es.curso.java;
+
+/**
+ * @author pue
+ *
+ */
+public class AplicacionHolaMundo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

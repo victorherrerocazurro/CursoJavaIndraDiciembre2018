@@ -1,0 +1,14 @@
+package es.curso.java;
+
+public class Dios {
+
+	private Dios() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static Dios getInstance() {
+		return null;
+	}
+	
+}

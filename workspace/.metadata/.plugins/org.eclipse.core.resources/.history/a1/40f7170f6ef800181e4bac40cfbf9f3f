@@ -1,0 +1,16 @@
+package es.curso.java.back.persistencias;
+
+
+import java.util.Map;
+
+import es.curso.java.back.entidades.Cliente;
+
+public class MapClientesDao implements ClientesDao {
+
+	private Map<Long, Cliente> tablaClientes 
+			= ClientesHashMap.getInstance();
+	
+	
+	
+	
+}

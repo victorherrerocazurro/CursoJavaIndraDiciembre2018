@@ -1,0 +1,63 @@
+package es.curso.java.back.entidades;
+
+import java.util.Date;
+
+public class Cliente {
+
+	private Long id;
+	private String nombre;
+	private Date fechaAlta;
+
+	public Cliente() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Cliente(Long id, String nombre, Date fechaAlta) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.fechaAlta = fechaAlta;
+	}
+	
+	/**
+	 * @return El numero de años redondeado
+	 */
+	public int cuantoTiempoLlevasConNosotros() {
+		//TODO Pendiente e imlmenetar cuando sepamos 
+		//manejar el API de fechas
+		return 0;
+	}
+
+	/**
+	 * Funcionalidad que respone al comoTeLlamas
+	 * @return
+	 */
+	public String getNombre() {
+		return nombre;
+	}
+	
+	public String comoTeLLamas() {
+		//return nombre;
+		return getNombre();
+	}
+
+	/**
+	 * Metodo que implementa cualEsTuIdentificador
+	 * @return
+	 */
+	public Long getId() {
+		return id;
+	}
+	
+	public Pedido[] cualesSonTusPedidos(){
+		return null;
+	}
+	
+	public String[] cualesSonTusPedidos(Date desde, Date hasta){
+		return null;
+	}
+	
+	
+	
+}

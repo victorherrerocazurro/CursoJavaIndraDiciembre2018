@@ -1,0 +1,21 @@
+package es.curso.java;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class DiosTest {
+
+	@Test
+	public void test() {
+		
+		Dios dios = new Dios();
+		
+		Dios dios2 = new Dios();
+		
+		assertEquals(dios, dios2);
+		
+		fail("Not yet implemented");
+	}
+
+}

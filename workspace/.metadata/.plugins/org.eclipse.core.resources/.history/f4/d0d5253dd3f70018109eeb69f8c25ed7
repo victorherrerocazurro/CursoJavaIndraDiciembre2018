@@ -1,0 +1,33 @@
+package es.curso.java.back.servicios;
+
+import es.curso.java.back.negocios.Negocio;
+import es.curso.java.back.persistencias.Persistencia;
+
+public class ServicioImpl implements Servicio {
+
+	private Negocio negocio;
+	
+	private Persistencia persistencia;
+
+	public ServicioImpl() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public ServicioImpl(Negocio negocio, Persistencia persistencia) {
+		super();
+		this.negocio = negocio;
+		this.persistencia = persistencia;
+	}
+
+	
+
+	/* (non-Javadoc)
+	 * @see es.curso.java.back.servicios.Servicio#setPersistencia(es.curso.java.back.persistencias.Persistencia)
+	 */
+	@Override
+	public void setPersistencia(Persistencia persistencia) {
+		this.persistencia = persistencia;
+	}
+	
+}

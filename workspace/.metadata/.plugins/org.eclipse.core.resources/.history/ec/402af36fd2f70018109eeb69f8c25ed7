@@ -1,0 +1,31 @@
+package es.curso.java.back.servicios;
+
+import es.curso.java.back.negocios.Negocio;
+import es.curso.java.back.persistencias.Persistencia;
+
+public class Servicio {
+
+	private Negocio negocio;
+	
+	private Persistencia persistencia;
+
+	public Servicio() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Servicio(Negocio negocio, Persistencia persistencia) {
+		super();
+		this.negocio = negocio;
+		this.persistencia = persistencia;
+	}
+
+	public void setNegocio(Negocio negocio) {
+		this.negocio = negocio;
+	}
+
+	public void setPersistencia(Persistencia persistencia) {
+		this.persistencia = persistencia;
+	}
+	
+}

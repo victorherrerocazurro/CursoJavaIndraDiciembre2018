@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;saludo&apos; from expression &apos;prefijo + aQuienSaludar + sufijo&apos;&#x0D;&#x0A;- Original project: &apos;01-HolaMundo&apos;&#x0D;&#x0A;- Variable name: &apos;saludo&apos;&#x0D;&#x0A;- Destination method: &apos;es.curso.java.Saludo.saludar()&apos;&#x0D;&#x0A;- Variable expression: &apos;prefijo + aQuienSaludar + sufijo&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;saludo&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;es.curso.java{Saludo.java" name="saludo" replace="true" selection="415 32" stamp="1543838046301" version="1.0"/>
+</session>

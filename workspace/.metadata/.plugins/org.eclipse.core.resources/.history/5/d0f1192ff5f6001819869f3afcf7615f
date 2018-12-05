@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package es.curso.java;
+
+/**
+ * @author pue
+ *
+ */
+public class AplicacionHolaMundo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Saludo saludoSpain = null;
+		// TODO Auto-generated method stub
+		System.out.println(
+				saludoSpain.saludar("Mundo"));
+	}
+
+}

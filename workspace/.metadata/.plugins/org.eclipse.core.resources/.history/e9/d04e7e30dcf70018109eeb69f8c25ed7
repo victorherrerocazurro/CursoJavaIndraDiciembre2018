@@ -1,0 +1,7 @@
+package es.curso.java.back.persistencias;
+
+import java.util.HashMap;
+
+public class ClientesHashMap extends HashMap<K, V> {
+
+}

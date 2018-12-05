@@ -1,0 +1,21 @@
+package es.curso.java;
+
+public class Saludo {
+
+	/**
+	 * Metodo que debera retornar un saludo compeusto 
+	 * con los atributos prefijo y sufijo y el 
+	 * parametro aQuienSaludar
+	 * 
+	 * @param aQuienSaludar
+	 * @return retorna un saludo en formato 
+	 * prefijo + aQuienSaludar + sufijo
+	 */
+	
+	public String saludar(String aQuienSaludar) {
+		return aQuienSaludar;
+	}
+		
+	
+	
+}

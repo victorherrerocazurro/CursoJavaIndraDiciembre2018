@@ -1,0 +1,14 @@
+package es.curso.java.back.persistencias;
+
+
+import java.util.HashMap;
+import java.util.Map;
+
+import es.curso.java.back.entidades.Cliente;
+
+public class Persistencia {
+
+	private Map<Long, Cliente> tablaClientes = new ClientesHashMap();
+	private Map<Long, Cliente> tablaClientes = new HashMap<>();
+	
+}

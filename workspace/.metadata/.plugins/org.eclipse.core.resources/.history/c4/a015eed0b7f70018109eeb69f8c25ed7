@@ -1,0 +1,8 @@
+package es.curso.java;
+
+public class ContenedorDeLosChinos {
+
+	//Seras el responsable de crear un 
+	//objeto de tipo Servicio
+	
+}

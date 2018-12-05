@@ -1,0 +1,31 @@
+package es.curso.java.ejercicio;
+
+import java.util.Date;
+
+public class Cliente {
+
+	private Long id;
+	private String nombre;
+	private Date fechaAlta;
+	
+	public Cliente() {
+		super();
+	}
+
+	public Cliente(Long id, String nombre, Date fechaAlta) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.fechaAlta = fechaAlta;
+	}
+	
+	/**
+	 * @return El numero de años redondeado
+	 */
+	
+	public int
+	
+	
+	
+	
+}

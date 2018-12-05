@@ -1,0 +1,62 @@
+/**
+ * 
+ */
+package es.curso.java;
+
+/**
+ * @author pue
+ *
+ */
+public class AplicacionHolaMundo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Saludo saludoSpain = new Saludo();
+		
+		saludoSpain.setPrefijo("Hola ");
+		
+		saludoSpain.setSufijo("!");
+
+		System.out.println(
+				saludoSpain.saludar("Mundo"));
+		
+		System.out.println(saludoSpain.getPrefijo());
+		
+		System.out.println(saludoSpain);
+		
+		
+		
+		Saludo saludoEnglish = new Saludo("!!", "Hello");
+		
+		
+
+		System.out.println(
+				saludoEnglish.saludar("Mundo"));
+		
+		System.out.println(
+				saludoEnglish.saludar("Juan"));
+		
+		System.out.println(
+				saludoEnglish.saludar("Maria"));
+		
+		System.out.println(
+				saludoEnglish.saludar("Alberto"));
+		
+		System.out.println(
+				saludoSpain.saludar("Juan"));
+		
+		System.out.println(
+				saludoSpain.saludar("Maria"));
+		
+		System.out.println(
+				saludoSpain.saludar("Alberto"));
+		
+		saludoSpain.prefijo = "Pissa ";
+		
+		System.out.println(
+				saludoSpain.saludar("Alberto"));
+	}
+
+}

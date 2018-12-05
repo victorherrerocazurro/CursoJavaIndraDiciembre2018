@@ -1,0 +1,24 @@
+package es.curso.java.back.persistencias;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import es.curso.java.back.entidades.Cliente;
+
+public class ClientesHashMap extends HashMap<Long, Cliente> {
+
+	
+	
+	private static Map<Long, Cliente> instance = new ClientesHashMap();
+
+	private ClientesHashMap() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public static Map<Long, Cliente> getInstance() {
+		// TODO Auto-generated method stub
+		return instance ;
+	}
+
+}

@@ -1,0 +1,9 @@
+package es.curso.java.front.controladores;
+
+import es.curso.java.back.servicios.Servicio;
+
+public class Controlador {
+
+	private Servicio servicio;
+	
+}

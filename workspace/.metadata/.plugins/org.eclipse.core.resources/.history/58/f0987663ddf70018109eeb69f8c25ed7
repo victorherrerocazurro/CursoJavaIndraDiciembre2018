@@ -1,0 +1,9 @@
+package es.curso.java.back.persistencias;
+
+import java.util.HashMap;
+
+import es.curso.java.back.entidades.Cliente;
+
+public class ClientesHashMap extends HashMap<Long, Cliente> {
+
+}

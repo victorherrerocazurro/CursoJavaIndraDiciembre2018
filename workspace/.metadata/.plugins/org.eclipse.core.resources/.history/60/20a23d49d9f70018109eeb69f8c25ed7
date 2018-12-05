@@ -1,0 +1,9 @@
+package es.curso.java.back.persistencias;
+
+import java.util.Map;
+
+public class Persistencia {
+
+	private Map<Long, Cliente> tablaClientes;
+	
+}

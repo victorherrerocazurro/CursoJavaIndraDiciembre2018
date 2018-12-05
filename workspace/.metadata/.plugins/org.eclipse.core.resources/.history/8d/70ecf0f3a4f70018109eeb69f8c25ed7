@@ -1,0 +1,19 @@
+package es.curso.java;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class DiosTest {
+
+	@Test
+	public void test() {
+		
+		new Dios();
+		
+		new Dios();
+		
+		fail("Not yet implemented");
+	}
+
+}

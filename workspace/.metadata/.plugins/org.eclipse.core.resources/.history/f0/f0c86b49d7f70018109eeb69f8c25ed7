@@ -1,0 +1,20 @@
+package es.curso.java.back.servicios;
+
+import es.curso.java.back.negocios.Negocio;
+import es.curso.java.back.persistencias.Persistencia;
+
+public class OtroServicio implements Servicio {
+
+	@Override
+	public void setNegocio(Negocio negocio) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setPersistencia(Persistencia persistencia) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

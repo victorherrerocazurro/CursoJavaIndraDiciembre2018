@@ -1,0 +1,11 @@
+package es.curso.java;
+
+public class Saludo {
+
+	public String saludar(String aQuienSaludar) {
+		
+	}
+		
+	
+	
+}

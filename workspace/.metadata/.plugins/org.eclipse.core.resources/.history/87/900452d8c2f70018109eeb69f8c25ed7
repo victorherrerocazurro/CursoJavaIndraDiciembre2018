@@ -1,0 +1,15 @@
+package es.curso.java;
+
+public class ContenedorDeLosChinos {
+
+	public ContenedorDeLosChinos() {
+		super();
+		
+	}
+
+	//TODO Seras el responsable de crear un 
+	//objeto de tipo Servicio
+	
+	
+	
+}

@@ -1,0 +1,18 @@
+package es.curso.java;
+
+import es.curso.java.back.servicios.Servicio;
+import es.curso.java.front.controladores.Controlador;
+
+public class ContenedorDeLosChinos {
+
+	public ContenedorDeLosChinos() {
+		super();
+		
+	}
+
+	//TODO Seras el responsable de crear un 
+	//objeto de tipo Servicio
+	
+	
+	
+}
